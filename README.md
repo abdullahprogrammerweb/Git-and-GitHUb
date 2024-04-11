@@ -204,3 +204,8 @@ marker.
 . git config --global color.ui auto
 It is used to set automatic command line coloring for Git for easy
 reviewing.
+
+Advanced concept
+1. hard vs reset
+2. git diff command
+3. 
