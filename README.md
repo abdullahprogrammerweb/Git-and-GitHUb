@@ -180,3 +180,27 @@ Here's a simplified explanation of conflicts in Git:
 5. **Committing the Resolution**: After resolving the conflict, you mark it as resolved in Git by staging the file (using `git add`) and completing the merge (using `git commit`). This finalizes the merge process.
 
 Conflicts are a natural part of collaborative development in Git, especially when multiple people are working on the same codebase. Resolving conflicts requires communication and collaboration among team members to ensure that changes are merged correctly and without introducing errors.# Git-and-GitHUb
+
+
+Basic Steps:-
+• Initialize the Repository - git init
+• Add Files to Staging Area or Stage Changes - git add .
+• . Review Changes - git status
+• Commit the changes - – git commit
+• . Check Commit History - git log
+. Rollback to previous commit - git reset --hard
+• Push Changes - git push
+
+Download and Install Git - https://git-scm.com/downloads
+Configuring User information used across all Local Repositories
+git config -l
+It is used to display list of information about git configuration.
+• git config --global user.name "Full Name"
+It is used to set a name that is identifiable for credit when review version
+history.
+git config --global user.email "Email ID”
+It is used to set an email address that will be associated with each history
+marker.
+. git config --global color.ui auto
+It is used to set automatic command line coloring for Git for easy
+reviewing.
